@@ -1,0 +1,20 @@
+def PrintArray(tab):
+    d = len(tab)
+    for i in range(d):
+        print(tab[i])
+
+
+
+def BubbleSort(tab):
+    l = len(tab)
+    for x in range(l-1):
+        for y in range(l-1, x, -1):
+            if(tab[y]<tab[y-1]):
+                tmp = tab[y]
+                tab[y] = tab[y-1]
+                tab[y-1] = tmp
+    PrintArray(tab)
+
+
+tab = [13,124,21,434,12,2137,5,-1,2]
+BubbleSort(tab)
