@@ -18,7 +18,7 @@ def SelectionSort(tab):
             tab[index] = tmp
     PrintArray(tab)
     
-s
+
 def PrintArray(tab):
     d = len(tab)
     for i in range(d):
@@ -27,6 +27,3 @@ def PrintArray(tab):
 
 
 
-a = [2,3,1,21,212,12]
-SelectionSort(a)
-    
